@@ -8,12 +8,13 @@ import StaggerList from './components/StaggerList'
 import StaggerPresence from './components/StaggerPresence'
 import LayoutList from './components/LayoutList'
 import SharedLayoutCard from './components/SharedLayoutCard'
+import SharedLayoutCardVariants from './components/SharedLayoutCardVariants'
 
 function App() {
 
   return (
     <div style={{ padding: 40 }}>
-      <SharedLayoutCard />
+      <SharedLayoutCardVariants />
     </div>
   )
 }
