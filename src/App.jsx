@@ -5,12 +5,13 @@ import HoverBox from './components/HoverBox'
 import PresenceBox from './components/PresenceBox'
 import VariantPresenceBox from './components/VariantPresenceBox'
 import StaggerList from './components/StaggerList'
+import StaggerPresence from './components/StaggerPresence'
 
 function App() {
 
   return (
     <div style={{ padding: 40 }}>
-      <StaggerList />
+      <StaggerPresence />
     </div>
   )
 }
