@@ -7,12 +7,13 @@ import VariantPresenceBox from './components/VariantPresenceBox'
 import StaggerList from './components/StaggerList'
 import StaggerPresence from './components/StaggerPresence'
 import LayoutList from './components/LayoutList'
+import SharedLayoutCard from './components/SharedLayoutCard'
 
 function App() {
 
   return (
     <div style={{ padding: 40 }}>
-      <LayoutList />
+      <SharedLayoutCard />
     </div>
   )
 }
